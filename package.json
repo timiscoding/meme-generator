@@ -1,0 +1,37 @@
+{
+  "name": "meme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config internals/webpack/webpack.dev.js",
+    "start:prod": "webpack-dev-server --config internals/webpack/webpack.prod.js",
+    "build": "webpack --config internals/webpack/webpack.prod.js",
+    "format": "prettier --write \"src/**/*.{js.jsx}\"",
+    "lint": "eslint **/*.{js,jsx} --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Timothy Tsui <timiscoding@gmail.com> (https://github.com/timiscoding)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.1.5",
+    "@babel/polyfill": "7.0.0",
+    "@babel/preset-env": "7.1.5",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.4",
+    "babel-plugin-styled-components": "1.8.0",
+    "eslint": "5.8.0",
+    "html-webpack-plugin": "3.2.0",
+    "prettier": "1.14.3",
+    "react-hot-loader": "4.3.12",
+    "webpack": "4.25.1",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10"
+  },
+  "dependencies": {
+    "react": "16.6.1",
+    "react-dom": "16.6.1",
+    "styled-components": "4.0.3"
+  }
+}
