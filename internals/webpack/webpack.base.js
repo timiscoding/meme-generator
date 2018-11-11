@@ -25,5 +25,6 @@ module.exports = options => ({
     ]
   },
   devServer: options.devServer,
-  plugins: options.plugins.concat(plugins)
+  plugins: options.plugins.concat(plugins),
+  devtool: "source-map"
 });
