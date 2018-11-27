@@ -9,7 +9,8 @@
     "build": "webpack --config internals/webpack/webpack.prod.js",
     "format": "prettier --write \"src/**/*.{js.jsx}\"",
     "lint": "eslint **/*.{js,jsx} --quiet",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "keywords": [],
   "author": "Timothy Tsui <timiscoding@gmail.com> (https://github.com/timiscoding)",
@@ -19,6 +20,9 @@
     "@babel/polyfill": "7.0.0",
     "@babel/preset-env": "7.1.5",
     "@babel/preset-react": "7.0.0",
+    "@storybook/addon-actions": "4.0.9",
+    "@storybook/addon-knobs": "4.0.9",
+    "@storybook/react": "4.0.9",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "23.6.0",
     "babel-loader": "8.0.4",
