@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { hot } from "react-hot-loader";
-import styled from "styled-components";
+import styled from "react-emotion";
 
-const Header = styled.h1`
+const Header = styled("h1")`
   font-size: 20px;
   color: blue;
 `;
