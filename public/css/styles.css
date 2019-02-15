@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "AutourOne";
+  src: url("fonts/AutourOne-Regular.eot");
+  src: url("fonts/AutourOne-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AutourOne-Regular.woff") format("woff"),
+    url("fonts/AutourOne-Regular.ttf") format("truetype"),
+    url("fonts/AutourOne-Regular.svg#AutourOne-Regular") format("svg");
+}
+
+body {
+  font-family: "AutourOne", Arial, Helvetica, sans-serif;
+}

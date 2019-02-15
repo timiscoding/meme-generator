@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" > <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+<defs >
+<font id="AutourOne-Regular" horiz-adv-x="1396" ><font-face
+    font-family="Autour One"
+    units-per-em="2048"
+    panose-1="2 0 5 3 0 0 0 2 0 4"
+    ascent="2010"
+    descent="-550"
+    alphabetic="0" />
+<missing-glyph horiz-adv-x="0" />
+<glyph unicode=" " glyph-name="space" horiz-adv-x="769" />
+<glyph unicode="!" glyph-name="exclam" horiz-adv-x="624" d="M317 505Q296 505 277 511T244 530T220 561T211 606Q211 629 214 651T217 699Q217 834 213 969T205 1240T197 1515T193 1795Q193 1816 200 1835T222 1868T261 1891T321 1900Q342 1900 362 1894T399
+1875T426 1841T437 1789Q437 1745 436 1674T434 1513T431 1320T428 1110T426 897T425 696Q425 674 429 652T433 601Q433 554 401 530T317 505ZM188 86Q189 141 195 181T214 248T251 288T309 301Q360 301 396 272T432 186Q432 134 422 94T393 26T351 -16T299 -31Q272
+-31 251 -19T216 10T195 48T188 86Z" />
+</font>
+</defs>
+</svg>

@@ -1,4 +1,5 @@
 import { configure } from "@storybook/react";
+import "../public/css/styles.css";
 
 /* require.context is a webpack module that lets us dynamically import story files found in
 src/components, searching all subdir and ends in storiesOf.js */

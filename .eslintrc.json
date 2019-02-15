@@ -1,6 +1,6 @@
 {
   "extends": ["eslint:recommended", "prettier", "prettier/react"],
-  "plugins": [],
+  "plugins": ["react-hooks"],
   "parserOptions": {
     "ecmaVersion": 2016,
     "sourceType": "module",
@@ -11,5 +11,8 @@
   "env": {
     "browser": true,
     "es6": true
+  },
+  "rules": {
+    "react-hooks/rules-of-hooks": "error"
   }
 }
